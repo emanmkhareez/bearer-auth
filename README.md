@@ -11,4 +11,4 @@ this server to login and signup using JWT
 [herkouLink](https://bearerautheman.herokuapp.com/)
 
 
-![UML](UML-class7.jpg)
+![UML](uml.png)

@@ -18,3 +18,11 @@ const DATABASE_CONFIG = {
 }
 
 const sequelize = new Sequelize(DATABASE_URL, DATABASE_CONFIG);
+
+module.exports = {
+    db: sequelize,
+    users: users(sequelize, DataTypes),
+    
+}
+
+

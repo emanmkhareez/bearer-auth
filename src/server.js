@@ -11,6 +11,9 @@ app.listen(port,()=>{
 });
 }
 
+app.get('/', (req, res) => {
+    res.status(200).send('Hello 👋 to bearer-auth server 🖥')
+})
 
 app.use(router)
 module.exports={

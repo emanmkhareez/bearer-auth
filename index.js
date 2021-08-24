@@ -5,5 +5,6 @@ const {db} = require('./src/models/index');
 db.sync()
     .then(() => {
         server.start(3000);
+        
     })
     .catch(console.error);
